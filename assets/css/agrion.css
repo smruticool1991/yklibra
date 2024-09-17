@@ -308,7 +308,7 @@ ul {
 .section-title__tagline {
   position: relative;
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 18px;
   color: var(--agrion-base);
   font-weight: 500;
@@ -318,11 +318,8 @@ ul {
 .section-title__title {
   margin: 0;
   color: var(--agrion-black);
-  font-size: 60px;
-  line-height: 72px;
-  font-weight: 700;
   margin-bottom: 2px;
-  text-transform: uppercase;
+  margin-top: 10px;
 }
 
 .section-title__icon {
@@ -502,7 +499,7 @@ ul {
 .main-header__contact-list li .icon i {
   position: relative;
   display: inline-block;
-  font-size: 15px;
+  font-size: 16px;
   color: var(--agrion-primary);
 }
 
@@ -511,7 +508,7 @@ ul {
 }
 
 .main-header__contact-list li .text p {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--agrion-white);
   line-height: 14px;
