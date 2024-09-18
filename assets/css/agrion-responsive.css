@@ -429,6 +429,7 @@
     .about-three {
         padding: 120px 0 120px;
     }
+    
 
     .blog-details__pagenation li+li {
         margin-left: 0;
@@ -520,6 +521,8 @@
 
 
 
+
+
 }
 
 
@@ -575,10 +578,7 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-    .section-title__title {
-        font-size: 35px;
-        line-height: 45px;
-    }
+    
 
     .section-title__title br {
         display: none;
@@ -610,6 +610,7 @@
         margin-left: 0;
         margin-top: 15px;
     }
+    
 
     .services-one__single {
         padding: 50px 40px 44px;
