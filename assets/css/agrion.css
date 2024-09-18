@@ -469,9 +469,10 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #000000;
+  background-color:#04d001d4;
   padding: 15px 40px 15px;
   border-radius: 22.5px;
+  color: #000000;
 }
 
 .main-header__contact-list {
@@ -495,6 +496,7 @@ ul {
   display: flex;
   align-items: center;
   top: 1px;
+  color: #935b07;
 }
 
 .main-header__contact-list li .icon i {
@@ -4596,7 +4598,7 @@ ul {
 .site-footer {
   position: relative;
   display: block;
-  background-color: var(--agrion-black);
+  background-color: #2ed82c;
   z-index: 1;
 }
 
@@ -4669,7 +4671,7 @@ ul {
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
-  color: #869780;
+  color: #5f685d;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   z-index: 1;
@@ -4781,11 +4783,11 @@ ul {
 .footer-widget__Contact-list li .text p {
   font-size: 16px;
   font-weight: 500;
-  color: #869780;
+  color: #5f685d;
 }
 
 .footer-widget__Contact-list li .text p a {
-  color: #869780;
+  color: #5f685d;
 }
 
 .footer-widget__Contact-list li .text p a:hover {
