@@ -320,6 +320,7 @@ ul {
   color: var(--agrion-black);
   margin-bottom: 2px;
   margin-top: 15px;
+  text-align: justify;
 }
 
 .section-title__icon {
@@ -468,7 +469,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: var(--agrion-black);
+  background-color: #000000;
   padding: 15px 40px 15px;
   border-radius: 22.5px;
 }
@@ -2858,7 +2859,7 @@ ul {
 .about-one__left {
   position: relative;
   display: block;
-  margin-right: 60px;
+  margin-right: -55px;
 }
 
 .about-one__left .section-title {
@@ -3777,7 +3778,8 @@ ul {
 .counter-one {
   position: relative;
   display: block;
-  padding: 126px 0 182px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   z-index: 2;
 }
 
@@ -3793,7 +3795,11 @@ ul {
   background-repeat: no-repeat;
   z-index: -1;
 }
-
+.counter-top{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .counter-one__inner {
   position: relative;
   display: block;
@@ -4597,7 +4603,7 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding: 113px 0 113px;
+ 
   z-index: 1;
 }
 
@@ -4606,18 +4612,7 @@ ul {
   display: block;
 }
 
-.site-footer-shape-1 {
-  position: absolute;
-  bottom: -204px;
-  left: 0;
-  right: 0;
-  height: 224px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.03;
-  z-index: -1;
-}
+
 
 .footer-widget__about {
   position: relative;
@@ -4851,6 +4846,7 @@ ul {
   position: relative;
   display: block;
   z-index: 1;
+  overflow: hidden;
 }
 
 .site-footer__bottom-inner {
@@ -4861,20 +4857,13 @@ ul {
   background-color: #0a1905;
   padding: 22px 0 22px;
   padding-left: 120px;
+  padding-right: 50px;
   border-top-left-radius: var(--agrion-bdr-radius);
   z-index: 1;
+  border-top-right-radius: 15px;
 }
 
-.site-footer__bottom-inner:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: -10000000px;
-  left: 100%;
-  top: 0;
-  background-color: #0a1905;
-  z-index: -1;
-}
+
 
 .site-footer__bottom-scroll {
   position: absolute;
