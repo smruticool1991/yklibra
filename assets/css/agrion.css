@@ -2871,10 +2871,7 @@ ul {
   font-weight: 700;
 }
 
-.about-one__text-2 {
-  padding-top: 28px;
-  padding-bottom: 33px;
-}
+
 
 .about-one__points {
   position: relative;
@@ -2979,7 +2976,7 @@ ul {
   bottom: 40px;
   right: -20px;
   width: 40px;
-  background-color: var(--agrion-primary);
+  
   content: "";
   border-radius: var(--agrion-bdr-radius);
   z-index: -1;
