@@ -490,6 +490,7 @@
       e.preventDefault();
       $(".mobile-nav__wrapper").toggleClass("expanded");
       $("body").toggleClass("locked");
+      $(".main-menu").toggleClass("d-none");
     });
   }
 
