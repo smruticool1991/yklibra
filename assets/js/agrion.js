@@ -762,6 +762,34 @@
     })
   }
 
+  // pratice
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true
+
+        },
+        600:{
+            items:1,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true
+
+        },
+        1000:{
+            items:1,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            loop:true
+        }
+    }
+})
   //Single Vertical Carousel
   if ($('.single-vertical-carousel').length) {
     $('.single-vertical-carousel').slick({
