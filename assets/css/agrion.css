@@ -3828,6 +3828,7 @@ ul {
   position: relative;
   display: inline-block;
   padding-bottom: 20px;
+ 
 }
 
 .counter-one__shape-one {
@@ -7811,18 +7812,19 @@ ul {
   text-align: center;
 }
 
-.page-header__inner h2 {
+.page-header__inner p {
   font-size: 60px;
   color: var(--agrion-white);
   font-weight: 700;
   line-height: 60px;
   text-transform: uppercase;
+  margin-top: 10px;
 }
 
 .thm-breadcrumb {
   position: relative;
   display: inline-block;
-  background-color: rgba(var(--agrion-white-rgb), .10);
+  background-color: rgba(255, 255, 255, 0.471);
   padding: 2px 29px 2px;
   border-radius: 22px;
   margin-bottom: 13px;
@@ -7831,9 +7833,9 @@ ul {
 .thm-breadcrumb li {
   position: relative;
   display: inline-block;
-  color: var(--agrion-white);
-  font-size: 14px;
-  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
   opacity: .60;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -7846,9 +7848,9 @@ ul {
 .thm-breadcrumb li a {
   position: relative;
   display: inline-block;
-  color: var(--agrion-white);
-  font-size: 14px;
-  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -11843,6 +11845,49 @@ ul {
 
 .team-carousel-page .team-one__single {
   margin-bottom: 0;
+}
+
+/* ------------------------------------------------
+about-vision-mission
+--------------------------------------------------- */
+.vision-first{
+  font-size: 18px;
+  color: brown;
+  padding-bottom: 20px;
+  font-weight: 800;
+}
+.vision-second{
+  font-size: 15px;
+  color: #000000;
+  font-weight: 600;
+  text-align: justify;
+  word-spacing: normal;
+  padding: 0px 10px 10px 0px;
+}
+.mission-second{
+  font-size: 15px;
+  color: #000000;
+  font-weight: 600;
+  text-align: justify;
+  word-spacing: normal;
+  padding: 0px 10px 30px 0px;
+}
+.mission-first{
+  font-size: 18px;
+  color: brown;
+  padding-bottom: 20px;
+  font-weight: 800;
+}
+.core-value{
+  border: 3px solid green;
+  margin-left: 20px;
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 20px;
+}
+.core-value p{
+  font-size: 20px;
+  color: blue;
 }
 
 /*--------------------------------------------------------------

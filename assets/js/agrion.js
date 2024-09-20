@@ -765,20 +765,24 @@
   // pratice
   $('.owl-carousel').owlCarousel({
     loop:true,
+    margin:10,
     responsiveClass:true,
     responsive:{
         0:{
             items:1,
             autoplay:true,
             autoplayTimeout:5000,
-            autoplayHoverPause:true
+            autoplayHoverPause:true,
+            autoHeight:true
+            
 
         },
         600:{
             items:1,
             autoplay:true,
             autoplayTimeout:5000,
-            autoplayHoverPause:true
+            autoplayHoverPause:true,
+            autoHeight:true
 
         },
         1000:{
@@ -786,7 +790,8 @@
             autoplay:true,
             autoplayTimeout:5000,
             autoplayHoverPause:true,
-            loop:true
+            loop:true,
+            autoHeight:true
         }
     }
 })
