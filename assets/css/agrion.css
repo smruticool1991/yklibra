@@ -1450,6 +1450,22 @@ ul {
 }
 
 
+/* ----------------------------------
+Home scroll
+----------------------------------- */
+.home-scroll_left{
+  padding-left: 90px;
+  color: #ffffff; 
+  margin-top: 90px;
+}
+.home-scroll_right div{
+   background-size: cover;
+   background-position: center;
+   width: 90%;
+   height: 65vh;
+   border-radius: 20px;
+}
+
 
 /*--------------------------------------------------------------
 # Home Showcase

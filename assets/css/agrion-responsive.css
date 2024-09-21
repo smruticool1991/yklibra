@@ -501,6 +501,13 @@
     .testimonials-carousel-page .testimonial-one__single {
         padding: 57px 30px 75px;
     }
+    .genesis-left{
+        order: 2;
+    }
+    .genesis-right{
+        order: 1;
+    }
+    
 
 
 
@@ -1592,8 +1599,21 @@
     .main-header-three__top-inner {
         justify-content: center;
     }
-
-
+    .genesis-left{
+        order: 2;
+    }
+    .genesis-right{
+        order: 1;
+    }
+    .home-scroll_left{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .home-scroll_right div{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 
 
 
@@ -1691,6 +1711,7 @@
     .stricky-header.main-menu-three .main-menu__list>li+li {
         margin-left: 75px;
     }
+    
 
 
 }
