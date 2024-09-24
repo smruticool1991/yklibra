@@ -310,7 +310,7 @@ ul {
   display: inline-block;
   font-size: 20px;
   line-height: 18px;
-  color: var(--agrion-base);
+  color: #ff9900;
   font-weight: 500;
   z-index: 1;
 }
@@ -4630,11 +4630,9 @@ Home scroll
 }
 .footer-info{
   flex: 0 0 25%;
-  max-width: 20%;
+  max-width: 19%;
   width: 100%;
-  padding: 0px 20px 20px 0px;
-  
- 
+  padding: 15px;
 
 }
 .footer-info h1{
@@ -4658,7 +4656,12 @@ font-weight: 500;
 .text p a:hover{
   color: #ff9900;
 }
-
+.he-of{
+  max-width: 21%;
+}
+.f-co{
+  max-width: 21%;
+}
 
 .site-footer {
   position: relative;
