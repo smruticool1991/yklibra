@@ -310,7 +310,7 @@ ul {
   display: inline-block;
   font-size: 20px;
   line-height: 18px;
-  color: #ff9900;
+  color: #c53535;
   font-weight: 500;
   z-index: 1;
 }
@@ -502,7 +502,7 @@ ul {
 .main-header__contact-list li .icon i {
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size:35px;
   color: var(--agrion-primary);
 }
 
@@ -511,7 +511,7 @@ ul {
 }
 
 .main-header__contact-list li .text p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--agrion-white);
   line-height: 14px;
@@ -570,7 +570,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-left: 40px;
+
 }
 
 .main-menu__left {
@@ -829,6 +829,7 @@ ul {
   padding-right: 40px;
 }
 
+
 .main-menu .main-menu__list,
 .main-menu .main-menu__list>li>ul,
 .main-menu .main-menu__list>li>ul>li>ul,
@@ -860,6 +861,17 @@ ul {
   }
 }
 
+.livelihood-head{
+  text-align: center;
+  font-size: 35px;
+  color: #c53535;
+  padding: 30px 0px 30px 0px;
+  font-weight: 700;
+}
+.livelihood-right{
+  padding: 20px 30px 20px 20px;
+  text-align: justify;
+}
 .main-menu .main-menu__list>li,
 .stricky-header .main-menu__list>li {
   padding-top: 30.5px;
@@ -881,18 +893,18 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: var(--agrion-gray);
+ color: #c53535;
   position: relative;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .main-menu .main-menu__list>li.current>a,
 .main-menu .main-menu__list>li:hover>a,
 .stricky-header .main-menu__list>li.current>a,
 .stricky-header .main-menu__list>li:hover>a {
-  color: var(--agrion-black);
+  color: #c53535;
   text-shadow: .3px 0 0 rgba(14, 34, 7, .8);
 }
 
@@ -2866,7 +2878,7 @@ Home scroll
 .about-one {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 40px 0 0;
   z-index: 1;
 }
 
@@ -2884,6 +2896,8 @@ Home scroll
 .about-one__left {
   position: relative;
   display: block;
+  border: 3px solid #c53535;
+  padding: 20px;
  
 }
 
@@ -3902,10 +3916,11 @@ Home scroll
 
 .counter-one__text {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 40px;
   font-family: var(--agrion-font-two);
   text-transform: uppercase;
+  color: #c53535;
 }
 
 .counter-one .odometer-formatting-mark {
@@ -11923,6 +11938,10 @@ about-vision-mission
   color: brown;
   padding-bottom: 20px;
   font-weight: 800;
+  background-color: yellow;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom: 3px solid #c53535;
 }
 .vision-second{
   font-size: 15px;
@@ -11930,7 +11949,7 @@ about-vision-mission
   font-weight: 600;
   text-align: justify;
   word-spacing: normal;
-  padding: 0px 10px 10px 0px;
+  padding: 10px;
 }
 .mission-second{
   font-size: 15px;
@@ -11938,24 +11957,35 @@ about-vision-mission
   font-weight: 600;
   text-align: justify;
   word-spacing: normal;
-  padding: 0px 10px 30px 0px;
+  padding: 10px;
 }
 .mission-first{
   font-size: 18px;
   color: brown;
   padding-bottom: 20px;
   font-weight: 800;
+  border-bottom: 3px solid #c53535;
+  background-color: yellow;
+  text-align: center;
+  padding-top: 10px;
 }
 .core-value{
   border: 3px solid green;
   margin-left: 20px;
   width: 90%;
+  margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px 10px 10px 20px;
+  border-radius: 30%;
+  border: 3px solid #c53535;
+  margin-left: 50px;
+
 }
 .core-value p{
   font-size: 20px;
   color: blue;
+  text-align: center;
+
 }
 
 /*--------------------------------------------------------------

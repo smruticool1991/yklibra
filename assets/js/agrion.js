@@ -663,7 +663,7 @@
     let testimonialsThumb = new Swiper("#project-one__thumb", {
       slidesPerView: 4,
       spaceBetween: 16,
-      speed: 1400,
+      speed: 1000,
       watchSlidesVisibility: true,
       watchSlidesProgress: true,
       loop: true,
@@ -771,7 +771,7 @@
         0:{
             items:1,
             autoplay:true,
-            autoplayTimeout:5000,
+            autoplayTimeout:2000,
             autoplayHoverPause:true,
             autoHeight:true
             
@@ -780,7 +780,7 @@
         600:{
             items:1,
             autoplay:true,
-            autoplayTimeout:5000,
+            autoplayTimeout:2000,
             autoplayHoverPause:true,
             autoHeight:true
 
@@ -788,7 +788,7 @@
         1000:{
             items:1,
             autoplay:true,
-            autoplayTimeout:5000,
+            autoplayTimeout:2000,
             autoplayHoverPause:true,
             loop:true,
             autoHeight:true
