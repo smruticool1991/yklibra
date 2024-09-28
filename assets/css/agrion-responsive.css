@@ -507,6 +507,14 @@
     .genesis-right{
         order: 1;
     }
+    .footer_section{
+        flex-direction: column; 
+    }
+    .footer-info{
+        margin: 10px 0px 10px 20px;
+        max-width: 90%;
+        width: 100%;
+    }
     
 
 
@@ -1617,13 +1625,17 @@
         
     }
     .footer-info{
-        margin: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 20px;
         max-width: 90%;
         width: 100%;
     }
     .footer_section{
         flex-direction: column;
+        padding: 0;
+        
+        
     }
+    
 
 
 
