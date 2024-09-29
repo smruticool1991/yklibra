@@ -11940,10 +11940,11 @@ about-vision-mission
   color: brown;
   padding-bottom: 20px;
   font-weight: 800;
-  background-color: yellow;
+  background-color: #78d378;
   text-align: center;
   padding-top: 10px;
   border-bottom: 3px solid #c53535;
+  border-top-left-radius: 35px;
 }
 .vision-second{
   font-size: 15px;
@@ -11967,20 +11968,13 @@ about-vision-mission
   padding-bottom: 20px;
   font-weight: 800;
   border-bottom: 3px solid #c53535;
-  background-color: yellow;
+  background-color: #78d378;
   text-align: center;
   padding-top: 10px;
+  border-top-right-radius: 35px;
 }
 .core-value{
-  border: 3px solid green;
-  margin-left: 20px;
-  width: 90%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px 10px 10px 20px;
-  border-radius: 30%;
-  border: 3px solid #c53535;
-
+  border-top: 3px solid #c53535;
 }
 .core-value p{
   font-size: 20px;
@@ -11988,7 +11982,13 @@ about-vision-mission
   text-align: center;
 
 }
+/* -----------------------------
+partners image
+-------------------------------*/
 
+.partners-img{
+  margin-top: 20px;
+}
 /*--------------------------------------------------------------
 # Project Carousel Page
 --------------------------------------------------------------*/

@@ -222,6 +222,7 @@
     }
 
 
+    
 
 
 
@@ -348,6 +349,13 @@
 
     .about-two__experience {
         left: -70px;
+    }
+    
+    .vision-first{
+        border-top-right-radius: 35px;
+    }
+    .mission-first{
+        border-top-right-radius: 0px;
     }
 
     .Provide-One__left {
@@ -626,6 +634,13 @@
         margin-top: 15px;
     }
     
+
+    .vision-first{
+        border-top-right-radius: 35px;
+    }
+    .mission-first{
+        border-top-right-radius: 0px;
+    }
 
     .services-one__single {
         padding: 50px 40px 44px;
@@ -1733,7 +1748,13 @@
     .stricky-header.main-menu-three .main-menu__list>li+li {
         margin-left: 75px;
     }
-    
+    .partners-img{
+        text-align: center;
+    }
+    .partners-img img{
+        width: 40%;
+ 
+    }
 
 
 }
