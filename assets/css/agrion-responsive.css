@@ -1527,7 +1527,14 @@
         justify-content: center;
     }
 
-
+    .contact{
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .contact-info{
+        max-width: 100%;
+        margin: 10px
+      }
 
 }
 
@@ -1650,6 +1657,14 @@
         
         
     }
+    .contact{
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    .contact-info{
+        max-width: 100%;
+        margin: 10px
+      }
     
 
 

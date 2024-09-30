@@ -12029,8 +12029,14 @@ partners image
 }
 
 
-
-
+/* ----------------------------------------------
+  contact-info
+----------------------------------------------------*/
+.contact-info{
+  border-radius: 20px; 
+  border: 3px solid wheat; 
+  max-width: 30%;
+}
 
 /*--------------------------------------------------------------
 # Boxed Version
@@ -12058,4 +12064,23 @@ body.boxed-wrapper {
 
 .boxed-wrapper .main-header__phone-contact-box {
   display: none;
+}
+/* ---------------------------------------
+      Donate section
+------------------------------------------*/
+.donate-heading h1{
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: #c53535;
+}
+.donate-heading p{
+  color: #c53535;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.pdf img:hover{
+  transform: scale(1.1);
 }
