@@ -12084,3 +12084,11 @@ body.boxed-wrapper {
 .pdf img:hover{
   transform: scale(1.1);
 }
+
+/* ---------------------------------
+media photo
+------------------------------------*/
+
+.media-photo img:hover{
+  transform: scale(1.1);
+}
