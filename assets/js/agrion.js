@@ -762,6 +762,8 @@
     })
   }
 
+  
+
   // pratice
   $('.owl-carousel').owlCarousel({
     loop:true,
