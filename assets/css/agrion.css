@@ -980,7 +980,7 @@ ul {
 }
 .first-color:hover{
   background-color: var(--agrion-extra);
-  color: #b7870f;;
+  color: #b7870f;
   text-shadow: 0.3px 0 0 rgba(14, 34, 7, 0.8);
 }
 .main-menu .main-menu__list > li > ul > li > a,
