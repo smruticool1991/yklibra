@@ -906,7 +906,7 @@ ul {
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 270px;
+  min-width: 600px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -932,7 +932,7 @@ ul {
     -webkit-transform 700ms ease;
   z-index: 99;
   background-color: rgb(255, 255, 255);
-  padding: 31px 20px 31px;
+  padding: 10px 20px 31px;
   border-bottom-left-radius: var(--agrion-bdr-radius);
   border-bottom-right-radius: var(--agrion-bdr-radius);
 }
@@ -975,20 +975,27 @@ ul {
   margin-top: 10px;
 }
 
+.first-color {
+  color: #000000;
+}
+.first-color:hover{
+  background-color: var(--agrion-extra);
+  color: #b7870f;;
+  text-shadow: 0.3px 0 0 rgba(14, 34, 7, 0.8);
+}
 .main-menu .main-menu__list > li > ul > li > a,
 .main-menu .main-menu__list > li > ul > li > ul > li > a,
 .stricky-header .main-menu__list > li > ul > li > a,
 .stricky-header .main-menu__list > li > ul > li > ul > li > a {
   position: relative;
   font-size: 16px;
-  line-height: 30px;
-  color: #890404;
+  line-height: 18px;
+  color: #b10909;
   letter-spacing: 0;
-  font-weight: 500;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px 20px 5px;
+  padding: 7px 20px 5px;
   -webkit-transition: 500ms;
   transition: 500ms;
   background-color: var(--agrion-white);
@@ -1000,7 +1007,7 @@ ul {
 .stricky-header .main-menu__list > li > ul > li:hover > a,
 .stricky-header .main-menu__list > li > ul > li > ul > li:hover > a {
   background-color: var(--agrion-extra);
-  color: var(--agrion-black);
+  color: #b7870f;;
   text-shadow: 0.3px 0 0 rgba(14, 34, 7, 0.8);
 }
 
@@ -1263,6 +1270,7 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  
 }
 
 .mobile-nav__content .main-menu__list > li > ul,
@@ -1270,6 +1278,7 @@ ul {
   display: none;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-left: 0.5em;
+  
 }
 
 .mobile-nav__content .main-menu__list > li:not(:last-child),
@@ -1282,6 +1291,8 @@ ul {
   > ul
   > li:not(:last-child) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .mobile-nav__content .main-menu__list > li > a > .main-menu-border {
@@ -12172,12 +12183,24 @@ Core Team
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
 }
+.team-info:hover{
+  background-color: #c53535;
+}
+.team-info:hover p{
+  color: #ffffff;
+}
+.team-info:hover h1{
+  color: #ffffff;
+}
 .team-info img{
   border: 5px solid #c53535;
 
 }
+.team-info:hover img{
+  border: 5px solid #ffffff;
 
-.team-info img:hover{
+}
+.team-info:hover{
   transform: scale(0.9);
 }
 .team-info h1{
@@ -12201,8 +12224,9 @@ Core Team
   border: 1px solid rgba(128, 128, 128, 0.255);
   margin-bottom: 20px;
 }
-.info-btn p a button:hover{
-  background-color: #c53535;
+.team-info:hover .info-btn p a button{
+  transform: scale(1.1);
+  background-color: #ff9900;
   color: #ffffff;
 }
 
@@ -12224,14 +12248,19 @@ Core Team
 
 }
 .director-info:hover{
-  background-color: #2ed82c;
+  background-color: #c53535;
   transform: scale(0.9);
   border: 1px solid #00000045;
   color: #ffffff;
 }
-.director-info img:hover{
- 
+.director-info:hover h1{
+  color: #ffffff;
 }
+.director-info:hover p{
+  color: #ffffff;
+}
+
+
 .director-info h1{
   font-size: 25px;
   color: #000000;
@@ -12254,7 +12283,8 @@ Core Team
   border: 1px solid rgba(128, 128, 128, 0.255);
   margin-bottom: 40px;
 }
-.director-info p a button:hover{
-  background-color: #c53535;
+.director-info:hover p a button{
+  transform: scale(1.1);
+  background-color: #ff9900;
   color: #ffffff;
 }
