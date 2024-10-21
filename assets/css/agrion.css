@@ -12180,8 +12180,9 @@ Core Team
   width: 90%;
   height: auto;
   padding-top: 40px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 10px;
+  margin-top: 130px;
 }
 .team-info:hover{
   background-color: #c53535;
@@ -12193,7 +12194,10 @@ Core Team
   color: #ffffff;
 }
 .team-info img{
-  border: 5px solid #c53535;
+  margin-top: -138px;
+  border: 3px solid #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #ffffff;
 
 }
 .team-info:hover img{
@@ -12239,12 +12243,16 @@ Core Team
   width: 90%;
   height: auto;
   margin-top: 120px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.132);
 }
 .director-info img{
+  padding-top: 5px;
   margin-top: -100px;
-  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 4px solid #ffffff;
 
 }
 .director-info:hover{
@@ -12287,4 +12295,7 @@ Core Team
   transform: scale(1.1);
   background-color: #ff9900;
   color: #ffffff;
+}
+.director-info:hover img{
+  border: 6px solid #ffffff;
 }
