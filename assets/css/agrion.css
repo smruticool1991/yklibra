@@ -12223,7 +12223,7 @@ Core Team
 .info-btn p a button{
   margin-top: 15px;
   font-size: 16px;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 5px;
   border: 1px solid rgba(128, 128, 128, 0.255);
   margin-bottom: 20px;
@@ -12299,3 +12299,16 @@ Core Team
 .director-info:hover img{
   border: 6px solid #ffffff;
 }
+
+/* -----------------------------------
+recognized section start
+------------------------------------*/
+.recognized-text p{
+  color: #000000;
+  padding: 30px 0px 30px 0px;
+  text-align: justify;
+}
+
+/* -----------------------------------
+recognized section end
+------------------------------------*/
