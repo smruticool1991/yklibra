@@ -12312,3 +12312,152 @@ recognized section start
 /* -----------------------------------
 recognized section end
 ------------------------------------*/
+
+/* --------------------------------
+Strategies section start
+----------------------------------*/
+
+
+/* .strategies-heading h1{
+  text-align: center;
+  font-size: 35px;
+  color: #c53535;
+  padding: 30px 0px 30px 0px;
+  font-weight: 700;
+}
+.strategies-info{
+  position: relative;
+}
+.strategies{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.077);
+  border-radius: 50%;
+  height: 450px;
+  width: 500px;
+  margin-top: -500px;
+}
+
+
+.strategies-text h1{
+  margin-top: -80px;
+  padding-bottom: 30px;
+  text-align: center;
+  
+}
+.live{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ed82c;
+  border-radius: 50%;
+
+
+}
+.Child{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ed82c;
+  border-radius: 50%;
+  margin-right: -370px;
+  margin-top: -81px;
+}
+.entrepreneur{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ed82c;
+  border-radius: 50%;
+  margin-right: -640px;
+}
+.disaster{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ed82c;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-right: -690px;
+}
+.health{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ed82c;
+  border-radius: 50%;
+  margin-right: -590px;
+    margin-top: 30px;
+    margin-left: -104px;
+}
+.environment{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ed82c;
+  border-radius: 50%;
+  margin-top: -60px;
+}
+.social{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ed82c;
+  border-radius: 50%;
+  margin-top: -800px;
+}
+.governance{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ed82c;
+  border-radius: 50%;
+}
+.sports{
+   position: relative;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2ed82c;
+  border-radius: 50%;
+} */
+
+/* --------------------------------
+Strategies section end
+----------------------------------*/
