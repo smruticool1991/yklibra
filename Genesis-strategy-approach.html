@@ -30,7 +30,39 @@
     />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content="Agrion HTML 5 Template " />
-
+    <style>
+      .center-circle {
+        width: 150px;
+        height: 80px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f8f9fa;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .small-circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e9ecef;
+        position: absolute;
+        font-weight: bold;
+      }
+      .circle-a { top: 10%; left: 50%; transform: translateX(-50%); }
+      .circle-b { top: 30%; left: 80%; }
+      .circle-c { top: 70%; left: 80%; }
+      .circle-d { top: 90%; left: 50%; transform: translateX(-50%); }
+      .circle-e { top: 70%; left: 20%; }
+      .circle-f { top: 30%; left: 20%; }
+    </style>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
 
@@ -113,7 +145,7 @@
   
                 <div class="main-header__menu-box-top">
                   <div class="main-header__logo">
-                    <a href="/yklibra/index.html"
+                    <a href="/index.html"
                       ><img src="assets/images/logo.png" alt="" style="width: 75px"
                     /></a>
                   </div>
@@ -664,7 +696,22 @@
       </div>
      </section> -->
     <!-- Strategies section end -->
+    <div class="container mb-5">
+      <div class="position-relative" style="height: 800px;">
+        <!-- Center Circle -->
+        <div class="center-circle">
+          Strategies
+        </div>
     
+        <!-- Surrounding Circles -->
+        <div class="small-circle circle-a">A</div>
+        <div class="small-circle circle-b">P</div>
+        <div class="small-circle circle-c">P</div>
+        <div class="small-circle circle-d">L</div>
+        <div class="small-circle circle-e">H</div>
+        <div class="small-circle circle-f">O</div>
+      </div>
+    </div>
    
     
           
@@ -838,7 +885,7 @@
         <div class="col-xl-12">
           <div class="site-footer__bottom-inner ">
             <p class="site-footer__bottom-text">
-              © Copyright 2023 by <a href="/yklibra/index.html">yklibra.org</a>
+              © Copyright 2023 by <a href="/index.html">yklibra.org</a>
             </p>
             <div class="site-footer__social">
               <a href="https://x.com/yklibra2"><i class="fab fa-twitter"></i></a>
