@@ -12220,7 +12220,8 @@ Core Team
   color: #000000;
   padding-top: -5px;
 }
-.info-btn p a button{
+
+.info-btn button{
   margin-top: 15px;
   font-size: 16px;
   border-radius: 5px;
@@ -12256,17 +12257,17 @@ Core Team
 
 }
 .director-info:hover{
-  background-color: #c53535;
+  /* background-color: #c53535; */
   transform: scale(0.9);
   border: 1px solid #00000045;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
-.director-info:hover h1{
+/* .director-info:hover h1{
   color: #ffffff;
 }
 .director-info:hover p{
   color: #ffffff;
-}
+} */
 
 
 .director-info h1{
@@ -12291,7 +12292,7 @@ Core Team
   border: 1px solid rgba(128, 128, 128, 0.255);
   margin-bottom: 40px;
 }
-.director-info:hover p a button{
+.director-info:hover button{
   transform: scale(1.1);
   background-color: #ff9900;
   color: #ffffff;
