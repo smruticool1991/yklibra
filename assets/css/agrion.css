@@ -12258,7 +12258,7 @@ Core Team
 }
 .director-info:hover{
   /* background-color: #c53535; */
-  transform: scale(0.9);
+  /* transform: scale(0.9); */
   border: 1px solid #00000045;
   /* color: #ffffff; */
 }
