@@ -12316,15 +12316,15 @@ recognized section end
 /* --------------------------------
 Strategies section start
 ----------------------------------*/
-
-
-/* .strategies-heading h1{
+.strategies-heading h1{
   text-align: center;
   font-size: 35px;
   color: #c53535;
   padding: 30px 0px 30px 0px;
   font-weight: 700;
 }
+
+/* 
 .strategies-info{
   position: relative;
 }
