@@ -12306,7 +12306,13 @@ Core Team
 .director-info:hover img{
   border: 6px solid #ffffff;
 }
+/* genesis image start */
+.genesis-img img{
+  width:70%;
+  height:700px;
+}
 
+/* genesis image end */
 /* -----------------------------------
 recognized section start
 ------------------------------------*/
