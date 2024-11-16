@@ -12257,17 +12257,20 @@ Core Team
 
 }
 .director-info:hover{
-  /* background-color: #c53535; */
-  /* transform: scale(0.9); */
+  background-color: #c53535;
+  transform: scale(0.9);
   border: 1px solid #00000045;
-  /* color: #ffffff; */
+   color: #ffffff;
 }
-/* .director-info:hover h1{
+.director-info:hover h1{
   color: #ffffff;
 }
 .director-info:hover p{
   color: #ffffff;
-} */
+}
+.director-info:hover .btn-con p{
+  color: #ffffff;
+}
 
 
 .director-info h1{
