@@ -12247,6 +12247,7 @@ Core Team
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.132);
+  background-color: #c53535;
 }
 .director-info img{
   padding-top: 5px;
@@ -12275,7 +12276,7 @@ Core Team
 
 .director-info h1{
   font-size: 25px;
-  color: #000000;
+  color: #ffffff;
   margin-top: 20px;
   font-weight: 800;
   padding: 10px;
@@ -12284,7 +12285,7 @@ Core Team
 }
 .director-info p{
   font-size: 18px;
-  color: #000000;
+  color: #ffffff;
   padding-top: -5px;
 }
 .director-info p a button{
@@ -12294,6 +12295,8 @@ Core Team
   padding: 5px 10px 5px 10px;
   border: 1px solid rgba(128, 128, 128, 0.255);
   margin-bottom: 40px;
+  background-color: #ff9900;
+  color: #ffffff;
 }
 .director-info:hover button{
   transform: scale(1.1);

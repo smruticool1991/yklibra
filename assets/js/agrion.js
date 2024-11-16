@@ -237,7 +237,7 @@
       }
     );
   }
-
+  
   //Fact Counter + Text Count
   if ($(".count-box").length) {
     $(".count-box").appear(
