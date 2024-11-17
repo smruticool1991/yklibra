@@ -1515,9 +1515,9 @@ ul {
 Home scroll
 ----------------------------------- */
 .home-scroll_left {
-  padding-left: 90px;
+  /* padding-left: 90px; */
   color: #ffffff;
-  margin-top: 90px;
+  margin-top: 200px;
   padding-bottom: 50px;
 }
 .home-scroll_right div {
@@ -12183,6 +12183,7 @@ Core Team
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 10px;
   margin-top: 130px;
+  background-color: #c53535;
 }
 .team-info:hover{
   background-color: #c53535;
@@ -12209,7 +12210,7 @@ Core Team
 }
 .team-info h1{
   font-size: 25px;
-  color: #000000;
+  color: #ffffff;
   margin-top: 20px;
   font-weight: 800;
 
@@ -12217,7 +12218,7 @@ Core Team
 }
 .team-info p{
   font-size: 18px;
-  color: #000000;
+  color: #ffffff;
   padding-top: -5px;
 }
 
@@ -12228,13 +12229,18 @@ Core Team
   padding: 5px;
   border: 1px solid rgba(128, 128, 128, 0.255);
   margin-bottom: 20px;
+  background-color: #ff9900;
+  color: #ffffff;
 }
 .team-info:hover .info-btn p a button{
   transform: scale(1.1);
   background-color: #ff9900;
   color: #ffffff;
 }
-
+.success-story-img img{
+  height: 250px;
+  width: 100%;
+}
 /* -----------------------------------
    board of director
 ------------------------------------*/

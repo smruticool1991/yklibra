@@ -1793,3 +1793,10 @@
 
 
 }
+
+@media only screen and (max-width: 450px) {
+.success-story-img img{
+    height:auto;
+     width: 100%;
+}
+}
